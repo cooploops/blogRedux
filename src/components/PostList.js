@@ -12,5 +12,5 @@ class PostList extends React.Component {
         return <div>PostList</div>
     }
 }
-
+// can default null for mapStateToProps function in meantime
 export default connect(null, { fetchPosts })(PostList);
